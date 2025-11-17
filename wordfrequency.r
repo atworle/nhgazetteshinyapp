@@ -98,7 +98,6 @@ ui <- fluidPage(
                 tabPanel(
                     "Word vectors (placeholder)",
                     br(),
-                    p("This tab is a scaffold where you can plug in your word vector code."),
                     p("Example ideas:"),
                     tags$ul(
                         tags$li("Select a period and a target word, show its nearest neighbors."),
