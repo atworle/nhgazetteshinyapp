@@ -7,7 +7,7 @@ library(scales)
 
 #--------------------- DATA PREP (GLOBAL) -----------------------------
 
-# Load full data (keep all columns you need later)
+# Load full data 
 df_raw <- read.csv("NHgazette1756-1783.csv", stringsAsFactors = FALSE)
 
 # Keep relevant columns, extract year/month
